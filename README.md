@@ -1,4 +1,6 @@
-## Running React on Repl.it
+# Replit Reactjs Project
+
+## Tools used for production
 
 [React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
 
@@ -7,7 +9,9 @@
 Using the two in conjunction is one of the fastest ways to build a web app.
 
 ### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the `.replit` file.
+- Click on this [link](https://waveportal-starter-project.rei-ne.repl.co/) and connect your crypto wallet to wave at me
+
+#### License
+
+- This is a [buildspace](https://buildspace.so/) project done by [Reine](https://twitter.com/Reine_Dev)
