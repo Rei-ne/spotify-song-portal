@@ -12,7 +12,7 @@ const App = () => {
   const [allWaves, setAllWaves] = useState([]);
   const [message, setMessage] = useState("");
 
-  const contractAddress = "0x7c88596C977FF70Db1A70d0fa17e10f22421e2ba";
+  const contractAddress = "0x6bec569088Fe21FE44e151e31463FE95310e086e";
 
   const contractABI = abi.abi;
 
@@ -94,7 +94,6 @@ const App = () => {
 
         count = await wavePortalContract.getTotalWaves();
         if (count) {
-
           setWaveCount(count.toNumber())
         }
         console.log("Retrieved total wave count...", count.toNumber());
@@ -103,7 +102,8 @@ const App = () => {
         console.log("Ethereum object doesn't exist!");
       }
     } catch (error) {
-      console.log(error);
+      console.log("Please wait 60 seconds before sending another message");
+      alert("Please wait 60 seconds before sending another message");
     }
   }
 
@@ -139,7 +139,8 @@ const App = () => {
         console.log("Ethereum object doesn't exist!");
       }
     } catch (error) {
-      console.log(error);
+      console.log("Please wait 60 seconds before sending another message");
+      alert("Please wait 60 seconds before sending another message");
     }
   };
 
